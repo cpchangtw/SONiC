@@ -1,4 +1,9 @@
 # SONiC Source Repositories
+
+## Imaging and Building tools
+- https://github.com/Azure/sonic-buildimage
+	- Source to build an ONIE installable image 
+
 ## SAI, Switch State Service
 - https://github.com/Azure/sonic-swss
 	- Switch State Service - Core component of SONiC which processes network switch data    
@@ -9,7 +14,7 @@
 - https://github.com/Azure/sonic-sairedis
 	- c++ library for interfacing to SAI objects in Redis 
 - https://github.com/Azure/sonic-dbsyncd
-	- python Redis common functions
+	- python Redis common functions for LLDP
 - https://github.com/Azure/sonic-py-swsssdk
 	- python switch state service library
 - https://github.com/Azure/sonic-quagga
@@ -23,18 +28,15 @@
 - https://github.com/Azure/sonic-snmpagent
 	- a net-snmpd agentx subagent 
 
-## Imaging and Building tools
-- https://github.com/Azure/sonic-docker-base
-    - Source to build base docker image
-- https://github.com/Azure/sonic-buildimage
-	- Source to build an ONIE installable image 
-- https://github.com/Azure/sonic-build-tools
-	- Source for tools used to build and run CI for SONiC
-
 ## Switch hardware drivers
 - https://github.com/Azure/sonic-linux-kernel
 	- kernel patches for various device drivers
+- https://github.com/Azure/sonic-platform-daemons
+	- daemons for controlling platform specific functionality in SONiC
+- https://github.com/celestica-Inc/sonic-platform-modules-cel
+- https://github.com/edge-core/sonic-platform-modules-accton
 - https://github.com/Azure/sonic-platform-modules-s6000
-	- Linux device drivers for Dell S6000
+- https://github.com/Azure/sonic-platform-modules-dell
 - https://github.com/aristanetworks/sonic
-	- Linux device drivers for Arista 7050
+- https://github.com/Ingrasys-sonic/sonic-platform-modules-ingrasys
+
